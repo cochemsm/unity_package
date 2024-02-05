@@ -1,0 +1,13 @@
+{
+  "name": "com.gladys.unity_setup",
+  "version": "1.0.0",
+  "displayName": "Unity Setup",
+  "description": "Makes a setup for easier unity usage",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/cochemsm/unity_setup",
+  "author": {
+    "name": "Magnus Cochems",
+    "email": "magnus@cochems.net",
+    "url": "https://www.magnus.cochems.net"
+  }
+}

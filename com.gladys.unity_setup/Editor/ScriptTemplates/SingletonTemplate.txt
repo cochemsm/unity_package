@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviour {
+    private static #SCRIPTNAME# instance;
+    public static #SCRIPTNAME# Instance => instance;
+    #NOTRIM#
+    private void Awake() {
+        if (instance != null) {
+            Destroy(gameObject);
+            return;
+        }
+        #NOTRIM#
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+}
