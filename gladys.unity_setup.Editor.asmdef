@@ -1,7 +1,6 @@
 {
   "name": "gladys.unity_setup.Editor",
   "references": [
-    "unity_setup.Editor",
     "unity_setup"
   ],
   "includePlatforms": []
